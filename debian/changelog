@@ -1,5 +1,23 @@
-template-repository (1.0-1) unstable; urgency=medium
+qoi (0+git20220615+ds-4) unstable; urgency=medium
 
-  * Initial release
+  * Bump standards version to 4.7.0.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Alex Myczko <tar@debian.org>  Mon, 15 Jul 2024 06:17:54 +0000
+
+qoi (0+git20220615+ds-3) unstable; urgency=medium
+
+  * Really source only upload.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 25 Jul 2022 09:56:54 +0200
+
+qoi (0+git20220615+ds-2) unstable; urgency=medium
+
+  * Source only upload.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 11 Jul 2022 12:31:27 +0200
+
+qoi (0+git20220615+ds-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1012837)
+
+ -- Gürkan Myczko <tar@debian.org>  Wed, 15 Jun 2022 10:03:43 +0200
