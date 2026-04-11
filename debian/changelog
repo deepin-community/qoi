@@ -1,3 +1,20 @@
+qoi (0+git20251213+ds-2) unstable; urgency=medium
+
+  * Convert libqoi-dev to Arch:any + M-A:same. (Closes: #1124483)
+    Thanks Helmut Grohne for the patch.
+
+ -- Alex Myczko <tar@debian.org>  Thu, 01 Jan 2026 23:43:38 +0100
+
+qoi (0+git20251213+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+  * Bump standards version to 4.7.2.
+  * d/control: drop Rules-Requires-Root.
+  * d/copyright: bump years.
+  * d/watch: dropped, as there are no releases yet.
+
+ -- Alex Myczko <tar@debian.org>  Sat, 13 Dec 2025 15:11:17 +0000
+
 qoi (0+git20220615+ds-4) unstable; urgency=medium
 
   * Bump standards version to 4.7.0.

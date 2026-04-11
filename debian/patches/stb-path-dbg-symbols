@@ -1,0 +1,42 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ qoi (0+git20251213+ds-1) unstable; urgency=medium
+ .
+   * New upstream version.
+   * Bump standards version to 4.7.2.
+   * d/control: drop Rules-Requires-Root.
+   * d/copyright: bump years.
+   * d/watch: dropped, as there are no releases yet.
+Author: Alex Myczko <tar@debian.org>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout https://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: (upstream|backport|vendor|other), (<patch-url>|commit:<commit-id>)
+Bug: <upstream-bugtracker-url>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: (no|not-needed|<patch-forwarded-url>)
+Applied-Upstream: <version>, (<commit-url>|commit:<commid-id>)
+Reviewed-By: <name and email of someone who approved/reviewed the patch>
+Last-Update: 2025-12-13
+
+--- qoi-0+git20251213+ds.orig/Makefile
++++ qoi-0+git20251213+ds/Makefile
+@@ -1,7 +1,7 @@
+ CC ?= gcc
+-CFLAGS_BENCH ?= -std=gnu99 -O3
++CFLAGS_BENCH ?= -std=gnu99 -g -I/usr/include/stb
+ LFLAGS_BENCH ?= -lpng $(LDFLAGS)
+-CFLAGS_CONV ?= -std=c99 -O3
++CFLAGS_CONV ?= -std=c99 -g -I/usr/include/stb
+ LFLAGS_CONV ?= $(LDFLAGS)
+ 
+ TARGET_BENCH ?= qoibench
