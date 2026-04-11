@@ -6,7 +6,7 @@ Upstream-Contact: Dominic Szablewski - https://phoboslab.org
 Files:
  *
 Copyright:
- 2021-2022 Dominic Szablewski
+ 2021-2025 Dominic Szablewski
 License: MIT
 
 License: MIT
@@ -29,5 +29,5 @@ License: MIT
 Files:
  debian/*
 Copyright:
- 2022-2024 Alex Myczko <tar@debian.org>
+ 2022-2025 Alex Myczko <tar@debian.org>
 License: MIT
